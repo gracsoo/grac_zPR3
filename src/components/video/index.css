@@ -1,0 +1,36 @@
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 2rem;
+    margin: 20px;
+}
+.popup{
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.enlargeVideo{
+    margin: auto;
+    display: block;
+    width: 80%;
+    height: 80%;
+    max-width: 700px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.video{
+    height: 300px;
+    width: 100%;
+    max-width: 300px;
+    cursor: pointer;
+}

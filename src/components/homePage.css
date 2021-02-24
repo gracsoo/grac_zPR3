@@ -1,0 +1,17 @@
+.home .menu{
+    background-color: #333;
+    overflow: hidden;
+}
+.menu li{
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    cursor: pointer;
+    float: left;
+}
+.menu li.active{
+    background-color: #111;
+}
+.menu li:hover{
+    background-color: #111;
+}
